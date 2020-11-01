@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.head-text {
+  text-align : left;
+  padding: 5px 0 10px 5px;
+}
+.rock-img {
+  width: 76%;
+  background: #948e8e1a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filt-btn {
+  width: 30%;
+  border: none;
+  margin: 20px;
+  background: #92e4af;
+  border-radius: 4px;;
+}
+.btm-border {
+  border-bottom: 2px solid grey;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.inner-left {
+  width: 88%;
+  background: #fff;
+  border-radius: 8px;
+  margin: 0 auto;
+} 
+.rock-body p span {
+  color: #226db9;
+}
+
+.rock-body {
+  padding-right: 0px !important;
+}
+
+.rock-card {
+  background: #fff;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+   .container{
+     padding-right: 0px !important;
+     margin-right: 0px !important;
+   }
+   .filter-section {
+     padding-right: 0px !important;
+   }
+   .rock-img {
+      width: 54%;
+      display: block;
+      margin: 0 auto;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .rock-card p {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
