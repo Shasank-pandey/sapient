@@ -4,6 +4,7 @@ import './App.css';
 import Filter from './Filter'
 
 function App() {
+  console.log("app run")
   return (
     <div className="App bg-light">
       <h2 className="align-left head-text">SpaceX Launch Programs</h2>
