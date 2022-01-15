@@ -2,7 +2,6 @@ import React,{useEffect,useState} from 'react'
 import Rocket from './Rocket';
 
 function Comp2() {
-   
     useEffect(()=>{
         console.log("COMPONENTDIDMOUNT comp2")
         return ()=>{
